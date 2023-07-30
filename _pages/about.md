@@ -6,8 +6,8 @@ subtitle: <a href='https://uqam.ca/'>Université du Québec à Montréal</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  # image: prof_pic.jpg
+  image: pic.jpg
+  # image: pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Montréal, Québec, Canada</p>
