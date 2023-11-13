@@ -20,4 +20,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-PhD student and computer engineer, I firmly believe that information technologies can contribute to building a better world. I contribute by focusing on machine learning, information security, and ways to create secure, privacy-respecting artificial intelligence.
+PhD student and computer engineer, I firmly believe that information technologies can contribute to building a better world. I contribute by focusing on machine learning, information security, and ways to create secure, privacy-preserving artificial intelligence.
