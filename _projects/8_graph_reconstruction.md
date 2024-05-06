@@ -22,4 +22,4 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     --- -->
 
-<iframe src="/assets/pdf/Poster Mobility.pdf" width="800px" height="1000px" />
+<iframe src="/assets/pdf/Poster Mobility.pdf" width="100%" height="600px"/>
