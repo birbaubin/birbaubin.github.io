@@ -1,13 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
-published: false
-
+title: Tempereature Forecasting
+description: Predicting temperature in Carpiquet (France).
+img: assets/img/temperature.png
+importance: 7
+category: Toy ML Projects
+related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.

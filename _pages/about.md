@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: <a href='https://uqam.ca/'>Université du Québec à Montréal</a>
 
