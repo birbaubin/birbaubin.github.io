@@ -20,4 +20,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-PhD student and computer engineer, I firmly believe that information technologies can contribute to building a better world. I contribute by focusing on machine learning, information security, and ways to create secure, privacy-preserving artificial intelligence.
+PhD student and computer engineer, I firmly believe that information technologies can contribute to building a better world. 
+
+I contribute by focusing on machine learning, information security, and ways to create secure intelligent systems. My research interests include privacy, robustness, and security in machine learning.
+
+I am currently working on my PhD under the supervision of [Prof. Marc-Olivier Killijian](https://kirija.github.io/) and [Prof. Sébastien Gambs](https://professeurs.uqam.ca/professeur/gambs.sebastien/).

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Graph Reconstruction
-description: Graph Reconstruction From Incomplete Data and Common Neighbors Information
+description: Graph reconstruction from neighborhood data and partial edge knowledge
 img: assets/img/graph_reconstruction.gif
 importance: 1
 category: Research
@@ -22,4 +22,4 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     --- -->
 
-<iframe src="/assets/pdf/poster_mobilitAI_2024_BZA.pdf" width="100%" height="600px"/>
+<iframe src="/assets/pdf/canadianai.pdf" width="100%" height="600px"/>

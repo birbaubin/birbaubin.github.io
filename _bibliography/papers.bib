@@ -3,17 +3,48 @@
 
 string{aps = {American Physical Society,}}
 
-@article{birba2023cryptograph,
-      title={Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning}, 
-      author={Sofiane Azogagh and Zelma Aubin Birba and Sébastien Gambs and Marc-Olivier Killijian},
-      year={2023},
-      eprint={2309.10890},
+@inproceedings{10.1145/3626232.3653257,
+author = {Azogagh, Sofiane and Birba, Zelma Aubin and Gambs, S\'{e}bastien and Killijian, Marc-Olivier},
+title = {Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning},
+year = {2024},
+isbn = {9798400704215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626232.3653257},
+doi = {10.1145/3626232.3653257},
+abstract = {Graphs are a widely used data structure for collecting and analyzing relational data. However, when the graph structure is distributed across several parties, its analysis is challenging. In particular, due to the sensitivity of the data each party might want to keep their partial knowledge of the graph private, while still be willing to collaborate with the other parties for tasks of mutual benefit, such as data curation or the removal of poisoned data. To address this challenge, we propose Crypto'Graph, an efficient protocol for privacy-preserving link prediction on distributed graphs. More precisely, it allows parties partially sharing a graph with distributed links to infer the likelihood of formation of new links in the future. Through the use of cryptographic primitives, Crypto'Graph is able to compute the likelihood of these new links on the joint network without revealing the structure of the private graph of each party, even though they know the number of nodes they have, since they share the same graph in terms of nodes but not the same links. Crypto'Graph improves on previous works by enabling the computation of a diverse set of similarity metrics in parallel without any additional cost. The use of Crypto'Graph is illustrated for defense against graph poisoning attacks, in which potential adversarial links are identified without compromising the privacy of the graphs of individual parties. The effectiveness of Crypto'Graph in mitigating graph poisoning attacks and achieving high prediction accuracy on a node classification task using graph neural networks is demonstrated through extensive experimentation on two real-world datasets.},
+booktitle = {Proceedings of the Fourteenth ACM Conference on Data and Application Security and Privacy},
+pages = {199–210},
+numpages = {12},
+keywords = {graph, privacy, secure multiparty computation, security},
+location = {Porto, Portugal},
+series = {CODASPY '24}
+}
+
+@misc{cryptoeprint:2024/1935,
+      author = {Sofiane Azogagh and Zelma Aubin Birba and Marc-Olivier Killijian and Félix Larose-Gervais and Sébastien Gambs},
+      title = {{RevoLUT} : Rust Efficient Versatile Oblivious Look-Up-Tables},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2024/1935},
+      year = {2024},
+      url = {https://eprint.iacr.org/2024/1935}
+}
+
+@misc{cryptoeprint:2024/1747,
+      author = {Adam Oumar Abdel-Rahman and Sofiane Azogagh and Zelma Aubin Birba and Arthur Tran Van},
+      title = {{POMS} : Proxy Offloading for Multicloud Storage with Keyword Search},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2024/1747},
+      year = {2024},
+      url = {https://eprint.iacr.org/2024/1747}
+}
+
+@misc{azogagh2024grandgraphreconstruction,
+      title={GRAND : Graph Reconstruction from potential partial Adjacency and Neighborhood Data}, 
+      author={Sofiane Azogagh and Zelma Aubin Birba and Josée Desharnais and Sébastien Gambs and Marc-Olivier Killijian and Nadia Tawbi},
+      year={2024},
+      eprint={2412.02329},
       archivePrefix={arXiv},
       primaryClass={cs.CR},
-      bibtex_show={true},
-      preview={link_prediction.gif}
-
-
+      url={https://arxiv.org/abs/2412.02329}, 
 }
 
 
