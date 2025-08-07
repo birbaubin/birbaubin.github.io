@@ -2,96 +2,179 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Aubin Birba
     - name: Languages
-      value: English, German
+      value: French (native), English (professional competence)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Université du Québec À Montréal (UQÀM), Montréal, Canada
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Application of secure multiparty computation to machine learning for security and privacy protection.
+        - Research focuses on secure multiparty computation to address data privacy challenges in machine learning holistically.
+        - Development of secure learning solutions covering different stages of the learning process.
+        - Exploration of the links between security and utility of machine learning models.
+        - Strengthening model robustness against different types of attacks.
+        - Supervisor: Pr. Marc-Olivier Killijian
+    - title: Master in Cyber-Defense and Information Security
+      institution: Université Polytechnique Hauts-de-France, Valenciennes, France
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Specialized in cybersecurity and information security.
+    - title: Engineering Diploma in Computer Science
+      institution: Ecole Nationale Sciences Appliquées, El Jadida, Morocco
+      year: 2018 - 2020
+      description:
+        - Computer science engineering degree.
+    - title: General University Studies Diploma (DEUG) in Mathematics and Computer Science
+      institution: Faculté des Sciences, El Jadida, Morocco
+      year: 2016 - 2018
+      description:
+        - Foundation in mathematics and computer science.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Program Monitor
+      institution: Laboratoire de didactique des mathématiques, UQÀM, Montréal, Canada
+      year: Oct. 2022 - Apr. 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Assistance in laboratory management.
+    - title: Research Assistant
+      institution: École des Sciences de Gestion, UQÀM, Montréal, Canada
+      year: Apr. - May 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Data processing for a research project on the role of property assessment in the city of Montréal.
+    - title: Engineering Intern
+      institution: Expleo Group, Montigny-le-Bretonneux, France
+      year: Mar. - Sept. 2021
       description:
+        - Assistance in developing a methodology for integrating security into software development from conception.
+        - Development of a tool to help apply the methodology.
+    - title: Engineering Intern
+      institution: Z Smart Services, Marrakech, Morocco
+      year: July - Sept. 2020
+      description:
+        - Design and development of a scientific publication management tool.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Laboratories
+      year: Various periods
+      description:
+        - Introduction to Computer Security (90h)
+        - Use and Administration of Computer Systems (90h)
+        - Programming (Java) (90h)
+        - Advanced Web Programming (Angular, Spring Boot, Firebase) (45h)
+    - title: Pedagogical Training
+      year: Recent
+      description:
+        - Completed an introduction to teaching course to enhance pedagogical skills.
+        - Developed fundamental competencies in course design, educational activity development, and effective evaluation methods.
 
-- title: Honors and Awards
+- title: Publications
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: "GRAND: Graph Reconstruction from Potential Partial Adjacency and Neighborhood Data"
+      year: 2025
+      description:
+        - S. Azogagh, Z. A. Birba, J. Desharnais, S. Gambs, M-O Killijian, N. Tawbi
+        - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '25)
+        - Toronto ON, Canada
+    - title: "Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning"
+      year: 2024
+      description:
+        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
+        - Proceedings of the Fourteenth ACM Conference on Data and Application Security and Privacy (CODASPY '24)
+        - Porto, Portugal
+    - title: "RevoLUT: Rust Efficient Versatile Oblivious Look-Up-Tables"
+      year: 2024
+      description:
+        - S. Azogagh, Z. A. Birba, M-O Killijian, F. Larose-Gervais, S. Gambs
+        - Cryptology ePrint Archive, Paper 2024/1935
+    - title: "POMS: Proxy Offloading for Multicloud Storage with Keyword Search"
+      year: 2024
+      description:
+        - A. O. Abdel-Rahman, S. Azogagh, Z. A. Birba, A. Tran Van
+        - Cryptology ePrint Archive, Paper 2024/1747
+    - title: "Oblivious (Un)Learning of Extremely Randomized Trees"
+      year: 2025
+      description:
+        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
+        - Cryptology ePrint Archive, Paper 2025/1409
 
-- title: Academic Interests
+- title: Presentations and Posters
+  type: time_table
+  contents:
+    - title: Application of secure multiparty computation to machine learning for security and privacy protection
+      year: Sept. 2023
+      description:
+        - PrivSec Seminar, Montréal, Canada
+    - title: Aiming for robustness of graph neural networks training using privacy-preserving distributed link prediction
+      year: June 2023
+      description:
+        - MobilitAI Forum, Toulouse, France
+    - title: Machine Learning Confidentiality through Secure Multiparty Computation
+      year: May 2022
+      description:
+        - PrivSec Seminar, Montréal, Canada
+    - title: Machine Learning Confidentiality
+      year: May 2022
+      description:
+        - MobilitAI Forum, Québec, Canada
+
+- title: Services
+  type: time_table
+  contents:
+    - title: Organization of joint ETS-UQÀM seminar on security and privacy protection in machine learning (PrivSec)
+      year: Sept. 2023
+    - title: Secretary of the Association des Étudiants aux Cycles Supérieurs en Informatique (AECSI) at UQÀM
+      year: Nov. 2022 - present
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Theoretical Knowledge
       items:
-        - Description 1.
-        - Description 2.
+        - "Cryptography - Secure multiparty computation (SPDZ), homomorphic encryption (TFHE, BFV, CKKS)"
+        - "Classical cryptographic schemes (RSA, El Gamal, Diffie-Hellman)"
+        - "Machine Learning - Deep learning, graph neural networks, decision trees, Bayesian networks"
+    - title: Tools, Libraries and Languages
+      items:
+        - "Cryptography - MP-SPDZ, TFHE-rs, OpenFHE, OpenSSL"
+        - "Machine Learning - PyTorch, TensorFlow, scikit-learn"
+        - "Programming - C++, Python, Java, Rust, JavaScript, TypeScript"
+        - "Web - Angular, Spring Boot, Django, Laravel, Firebase, MySQL, MongoDB, PostgreSQL"
+        - "Platforms - Git, Docker, Linux"
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Secure Multiparty Computation
+      items:
+        - Application to machine learning
+        - Privacy-preserving distributed computing
+        - Cryptographic protocols
+    - title: Machine Learning Security
+      items:
+        - Privacy protection in ML
+        - Robustness against attacks
+        - Secure model training
+    - title: Graph Neural Networks
+      items:
+        - Privacy-preserving link prediction
+        - Robust graph learning
+        - Distributed graph processing
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Teaching:</u> Passionate about education and knowledge sharing
+    - <u>Research:</u> Committed to developing innovative solutions for a safer and more privacy-respecting digital world
+    - <u>Open Source:</u> Contributing to scientific and pedagogical advancement in computer science
+
+

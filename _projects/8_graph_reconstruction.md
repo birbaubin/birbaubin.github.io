@@ -5,8 +5,8 @@ description: Graph reconstruction from neighborhood data and partial edge knowle
 img: assets/img/graph_reconstruction.gif
 importance: 1
 category: Research
-related_publications:
-published: true
+related_publications: grand
+published: false
 ---
 
 <!-- Every project has a beautiful feature showcase page.

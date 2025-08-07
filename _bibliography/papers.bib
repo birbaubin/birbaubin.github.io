@@ -3,7 +3,26 @@
 
 string{aps = {American Physical Society,}}
 
-@inproceedings{10.1145/3626232.3653257,
+@inproceedings{grand,
+author = {Azogagh, Sofiane and Birba, Zelma Aubin and Desharnais, Jos\'{e}e and Gambs, S\'{e}bastien and Killijian, Marc-Olivier and Tawbi, Nadia},
+title = {GRAND : Graph Reconstruction from Potential Partial Adjacency and Neighborhood Data},
+year = {2025},
+isbn = {9798400714542},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3711896.3736988},
+abstract = {Cryptographic approaches, such as secure multiparty computation, can be used to securely compute a function of a distributed graph without centralizing the data of each participant. However, the output of the protocol can leak sensitive information about the structure of the original graph. In particular, we propose an approach by which an adversary observing the result of a private protocol for the computation of the number of common neighbors between all pairs of vertices, can reconstruct the adjacency matrix of the graph. In fact, this can only be done up to co-squareness, a notion we introduce, as two different graphs can have the same matrix of common neighbors. To realize this, we consider two adversary models, one who observes the common neighbors matrix only and a more informed one that has partial knowledge of the original graph. Our results demonstrate that, from their common neighbors matrix, graphs can be reconstructed with high accuracy (up to co-squareness). The proposed reconstruction is also interesting in itself from the point of view of graph theory.},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+pages = {47–58},
+numpages = {12},
+keywords = {common neighbor matrix, edge prediction, graph reconstruction, private computing},
+location = {Toronto ON, Canada},
+series = {KDD '25},
+pdf = {grand.pdf},
+poster = {grand_poster.pdf},
+}
+
+@inproceedings{cryptograph,
 author = {Azogagh, Sofiane and Birba, Zelma Aubin and Gambs, S\'{e}bastien and Killijian, Marc-Olivier},
 title = {Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning},
 year = {2024},
@@ -18,7 +37,9 @@ pages = {199–210},
 numpages = {12},
 keywords = {graph, privacy, secure multiparty computation, security},
 location = {Porto, Portugal},
-series = {CODASPY '24}
+series = {CODASPY '24},
+pdf = {cryptograph.pdf},
+code = {https://github.com/birbaubin/distributed-link-prediction}
 }
 
 @misc{cryptoeprint:2024/1935,
@@ -26,7 +47,9 @@ series = {CODASPY '24}
       title = {{RevoLUT} : Rust Efficient Versatile Oblivious Look-Up-Tables},
       howpublished = {Cryptology {ePrint} Archive, Paper 2024/1935},
       year = {2024},
-      url = {https://eprint.iacr.org/2024/1935}
+      url = {https://eprint.iacr.org/2024/1935},
+      abstract = {In this paper we present RevoLUT, a library implemented in Rust that reimagines the use of Look-Up-Tables (LUT) beyond their conventional role in function encoding, as commonly used in TFHE's programmable boostrapping. Instead, RevoLUT leverages LUTs as first class objects, enabling efficient oblivious operations such as array access, elements sorting and permutation directly within the table. This approach supports oblivious algortithm, providing a secure, privacy-preserving solution for handling sensitive data in various applications.},
+      pdf = {revolut.pdf}
 }
 
 @misc{cryptoeprint:2024/1747,
@@ -34,18 +57,42 @@ series = {CODASPY '24}
       title = {{POMS} : Proxy Offloading for Multicloud Storage with Keyword Search},
       howpublished = {Cryptology {ePrint} Archive, Paper 2024/1747},
       year = {2024},
-      url = {https://eprint.iacr.org/2024/1747}
+      url = {https://eprint.iacr.org/2024/1747},
+      abstract = {Cloud storage offers convenient data access and sharing, but security concerns remain. Existing secure cloud storage solutions often lack essential features like data integrity, multi-cloud support, user-friendly file sharing, and efficient search. This paper proposes a novel secure cloud storage system that addresses these limitations. Our system uses distributed storage and attribute-based encryption to enhance data availability, access control, and user experience. It also enables private and efficient file search and data retrievability verification. This approach overcomes the trade-offs present in prior work, offering a secure and user-friendly solution for cloud data management.},
+      pdf = {poms.pdf}
 }
 
-@misc{azogagh2024grandgraphreconstruction,
-      title={GRAND : Graph Reconstruction from potential partial Adjacency and Neighborhood Data}, 
-      author={Sofiane Azogagh and Zelma Aubin Birba and Josée Desharnais and Sébastien Gambs and Marc-Olivier Killijian and Nadia Tawbi},
-      year={2024},
-      eprint={2412.02329},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2412.02329}, 
+@misc{oblivious-tree,
+      author = {Sofiane Azogagh and Zelma Aubin Birba and Sébastien Gambs and Marc-Olivier Killijian},
+      title = {Oblivious (Un)Learning of Extremely Randomized Trees},
+      year = {2025},
+      url = {https://eprint.iacr.org/2025/1409},
+      abstract = {While the use of homomorphic encryption (HE) for
+encrypted inference has received considerable attention, its
+application for the training of machine learning (ML) models
+remains comparatively underexplored, primarily due to the
+high computational overhead traditionally associated with fully
+homomorphic encryption (FHE). In this work, we address
+this challenge by leveraging the inherent connection between
+inference and training in the context of Extremely Randomized
+Trees (ERT), thereby enabling efficient training directly over
+encrypted data. More precisely, we instantiate this approach
+by the training of ERT within the TFHE framework. Our
+implementation demonstrates that it is possible to train ERTs
+on encrypted datasets with a runtime significantly lower than
+current state-of-the-art methods for training Random Forests
+in the encrypted domain while achieving comparable predictive
+accuracy. This result highlights a promising direction for
+practical privacy-preserving machine learning using FHE. Our
+second main contribution consists in leveraging the properties
+of ERTs to create the first ML model that enables private
+unlearning. This approach makes the unlearning process indistinguishable from training, thus allowing clients to conceal
+the true nature of the operations being conducted on the model.},
+howpublished = {Cryptology {ePrint} Archive, Paper 2025/1409},
+pdf = {oblivious_tree.pdf}
 }
+
+
 
 
 article{einstein1950meaning,

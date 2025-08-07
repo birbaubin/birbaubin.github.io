@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Some projects I have been working on.
+description: Here you will find a list of projects I have worked on. 
 nav: true
 nav_order: 2
-display_categories: [Research]
+display_categories: [Crypto, Others]
 horizontal: false
 published: true
 ---

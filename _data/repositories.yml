@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - birbaubin
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - birbaubin/fhe-cryptograph
+  - birbaubin/GRAND
+  - birbaubin/distributed-link-prediction
+
