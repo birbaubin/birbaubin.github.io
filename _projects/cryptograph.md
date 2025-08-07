@@ -12,7 +12,7 @@ giscus_comments: true
 
 ## The Problem: When Organizations Want to Collaborate (But Can't Share Data)
 
-Imagine you're trying to solve a puzzle, but the pieces are scattered across different rooms, and you can't move them. That's essentially what happens when organizations want to work together on data analysis but can't share their sensitive information.
+Imagine you are trying to solve a puzzle, but the pieces are scattered across different rooms, and you can't move them. That's essentially what happens when organizations want to work together on data analysis but can't share their sensitive information.
 
 Think about it: hospitals want to collaborate on patient research, banks want to detect fraud together, or social media platforms want to recommend connections—but they all have the same problem: **they can't share their data without violating privacy laws or exposing sensitive information**.
 
