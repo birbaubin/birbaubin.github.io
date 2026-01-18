@@ -20,6 +20,9 @@ location = {Toronto ON, Canada},
 series = {KDD '25},
 pdf = {grand.pdf},
 poster = {grand_poster.pdf},
+code = {https://github.com/birbaubin/GRAND},
+preview = {graph_reconstruction.gif},
+selected = {true},
 }
 
 @inproceedings{cryptograph,
@@ -39,7 +42,9 @@ keywords = {graph, privacy, secure multiparty computation, security},
 location = {Porto, Portugal},
 series = {CODASPY '24},
 pdf = {cryptograph.pdf},
-code = {https://github.com/birbaubin/distributed-link-prediction}
+code = {https://github.com/birbaubin/distributed-link-prediction},
+preview = {link_prediction.gif},
+selected = {true},
 }
 
 @misc{cryptoeprint:2024/1935,
@@ -49,7 +54,9 @@ code = {https://github.com/birbaubin/distributed-link-prediction}
       year = {2024},
       url = {https://eprint.iacr.org/2024/1935},
       abstract = {In this paper we present RevoLUT, a library implemented in Rust that reimagines the use of Look-Up-Tables (LUT) beyond their conventional role in function encoding, as commonly used in TFHE's programmable boostrapping. Instead, RevoLUT leverages LUTs as first class objects, enabling efficient oblivious operations such as array access, elements sorting and permutation directly within the table. This approach supports oblivious algortithm, providing a secure, privacy-preserving solution for handling sensitive data in various applications.},
-      pdf = {revolut.pdf}
+      pdf = {revolut.pdf},
+      code = {https://github.com/sofianeazogagh/revoLUT},
+      preview={blind_read.png}
 }
 
 @misc{cryptoeprint:2024/1747,
@@ -59,7 +66,14 @@ code = {https://github.com/birbaubin/distributed-link-prediction}
       year = {2024},
       url = {https://eprint.iacr.org/2024/1747},
       abstract = {Cloud storage offers convenient data access and sharing, but security concerns remain. Existing secure cloud storage solutions often lack essential features like data integrity, multi-cloud support, user-friendly file sharing, and efficient search. This paper proposes a novel secure cloud storage system that addresses these limitations. Our system uses distributed storage and attribute-based encryption to enhance data availability, access control, and user experience. It also enables private and efficient file search and data retrievability verification. This approach overcomes the trade-offs present in prior work, offering a secure and user-friendly solution for cloud data management.},
-      pdf = {poms.pdf}
+      pdf = {poms.pdf},
+      abstract = {Cloud storage offers convenient data access and sharing, but
+security concerns remain. Existing secure cloud storage solutions often lack essential features like data integrity, multi-cloud support, userfriendly file sharing, and efficient search. This paper proposes a novel
+secure cloud storage system that addresses these limitations. Our system uses distributed storage and attribute-based encryption to enhance
+data availability, access control, and user experience. It also enables private and efficient file search and data retrievability verification. This approach overcomes the trade-offs present in prior work, offering a secure
+and user-friendly solution for cloud data management.},
+      preview={cloud_storage.png},
+    
 }
 
 @misc{oblivious-tree,
@@ -89,7 +103,8 @@ of ERTs to create the first ML model that enables private
 unlearning. This approach makes the unlearning process indistinguishable from training, thus allowing clients to conceal
 the true nature of the operations being conducted on the model.},
 howpublished = {Cryptology {ePrint} Archive, Paper 2025/1409},
-pdf = {oblivious_tree.pdf}
+pdf = {oblivious_tree.pdf},
+preview={decision_tree.png},
 }
 
 

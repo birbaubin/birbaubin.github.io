@@ -2,26 +2,26 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://uqam.ca/'>Université du Québec à Montréal</a>
+# subtitle: <a href='https://uqam.ca/'>Université du Québec à Montréal</a>
+subtitle: Security Researcher & Engineer
 
 profile:
   align: left
   image: photo.jpg
   # image: pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>Faculty of Sciences, Université du Québec à Montréal</p>
-    <!--<p>123 your address street</p>-->
     <p>Montréal, Québec, Canada</p>
 
-news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+
 ---
 
-I am a PhD student and computer engineer passionate about harnessing information technologies to help build a better world.
 
-My work centers on machine learning and information security, with a particular interest in developing secure and intelligent systems. I am especially interested in the application of cryptographic tools such as homomorphic encryption, secure multiparty computation and classical cryptographic primitives for privacy in intelligent systems. I also have a keen interest and demonstrating the limitations of secure protocols, and providing solutions to achieve robustness and security in these systems.
+I'm a **cybersecurity researcher and engineer** with deep expertise in **cryptography**, **privacy-preserving technologies**, and **machine learning systems**. My work spans both academic research and industry applications, focusing on designing and implementing secure protocols, privacy-enhancing technologies, and robust machine learning infrastructures.
 
-Currently, I am pursuing my PhD under the supervision of [Prof. Marc-Olivier Killijian](https://kirija.github.io/) and [Prof. Sébastien Gambs](https://professeurs.uqam.ca/professeur/gambs.sebastien/).
+I am passionate about bridging the gap between theoretical advances and practical deployments, ensuring that innovative security solutions are accessible and effective in real-world environments. I have contributed to projects ranging from tailored secure software development methodologies to secure computation libraries and privacy-preserving analytics, with applications in various sectors such as industry, transport, and healthcare.
+

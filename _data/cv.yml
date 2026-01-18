@@ -76,37 +76,6 @@
         - Completed an introduction to teaching course to enhance pedagogical skills.
         - Developed fundamental competencies in course design, educational activity development, and effective evaluation methods.
 
-- title: Publications
-  type: time_table
-  contents:
-    - title: "GRAND: Graph Reconstruction from Potential Partial Adjacency and Neighborhood Data"
-      year: 2025
-      description:
-        - S. Azogagh, Z. A. Birba, J. Desharnais, S. Gambs, M-O Killijian, N. Tawbi
-        - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '25)
-        - Toronto ON, Canada
-    - title: "Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning"
-      year: 2024
-      description:
-        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
-        - Proceedings of the Fourteenth ACM Conference on Data and Application Security and Privacy (CODASPY '24)
-        - Porto, Portugal
-    - title: "RevoLUT: Rust Efficient Versatile Oblivious Look-Up-Tables"
-      year: 2024
-      description:
-        - S. Azogagh, Z. A. Birba, M-O Killijian, F. Larose-Gervais, S. Gambs
-        - Cryptology ePrint Archive, Paper 2024/1935
-    - title: "POMS: Proxy Offloading for Multicloud Storage with Keyword Search"
-      year: 2024
-      description:
-        - A. O. Abdel-Rahman, S. Azogagh, Z. A. Birba, A. Tran Van
-        - Cryptology ePrint Archive, Paper 2024/1747
-    - title: "Oblivious (Un)Learning of Extremely Randomized Trees"
-      year: 2025
-      description:
-        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
-        - Cryptology ePrint Archive, Paper 2025/1409
-
 - title: Presentations and Posters
   type: time_table
   contents:
@@ -176,5 +145,36 @@
     - <u>Teaching:</u> Passionate about education and knowledge sharing
     - <u>Research:</u> Committed to developing innovative solutions for a safer and more privacy-respecting digital world
     - <u>Open Source:</u> Contributing to scientific and pedagogical advancement in computer science
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "GRAND: Graph Reconstruction from Potential Partial Adjacency and Neighborhood Data"
+      year: 2025
+      description:
+        - S. Azogagh, Z. A. Birba, J. Desharnais, S. Gambs, M-O Killijian, N. Tawbi
+        - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '25)
+        - Toronto ON, Canada
+    - title: "Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning"
+      year: 2024
+      description:
+        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
+        - Proceedings of the Fourteenth ACM Conference on Data and Application Security and Privacy (CODASPY '24)
+        - Porto, Portugal
+    - title: "RevoLUT: Rust Efficient Versatile Oblivious Look-Up-Tables"
+      year: 2024
+      description:
+        - S. Azogagh, Z. A. Birba, M-O Killijian, F. Larose-Gervais, S. Gambs
+        - Cryptology ePrint Archive, Paper 2024/1935
+    - title: "POMS: Proxy Offloading for Multicloud Storage with Keyword Search"
+      year: 2024
+      description:
+        - A. O. Abdel-Rahman, S. Azogagh, Z. A. Birba, A. Tran Van
+        - Cryptology ePrint Archive, Paper 2024/1747
+    - title: "Oblivious (Un)Learning of Extremely Randomized Trees"
+      year: 2025
+      description:
+        - S. Azogagh, Z. A. Birba, S. Gambs, M-O Killijian
+        - Cryptology ePrint Archive, Paper 2025/1409
 
 
